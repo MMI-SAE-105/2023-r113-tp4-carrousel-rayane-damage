@@ -13,6 +13,7 @@ img {
     /* image responsive, largeur maxi */
     width: 100%;
     /* hauteur "auto" */
+    height: auto;
 }
 .carrousel_parent-ecrans {
     /* aligne horizontalement les enfants */
