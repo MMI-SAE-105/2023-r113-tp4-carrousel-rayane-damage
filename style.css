@@ -11,13 +11,15 @@ max-width width width
 
 img {
     /* image responsive, largeur maxi */
-    width: 100%;
+    max-width: 100%;
     /* hauteur "auto" */
     height: auto;
 }
 .carrousel_parent-ecrans {
     /* aligne horizontalement les enfants */
+    display: flex;
     /* largeur du parent */
+    width: 100%;
     
 }
 .carrousel_ecran {
