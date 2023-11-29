@@ -53,7 +53,7 @@ img {
 }
 .carrousel_ecran {
     /* largeur du parent pour chaque enfant */
-    width: 100;
+    width: 100%;
     /* permet de garder toute la largeur du parent */
     flex: none;
     scroll-snap-align: start;
