@@ -76,4 +76,8 @@ img {
     list-style-type: none;
     /* espace entre les enfants */
     gap: 1rem;
-  }
+}
+
+.caroussel_lien.actif{
+    color: red;
+}
