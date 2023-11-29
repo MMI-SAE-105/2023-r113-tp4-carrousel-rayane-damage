@@ -4,6 +4,13 @@
     /* change le box model */
     box-sizing: border-box;
     }
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:visited{
+    color: black;
+}
 
 img {
     /* image responsive, largeur maxi */
@@ -79,5 +86,5 @@ img {
 }
 
 .caroussel_lien.actif{
-    color: red;
+    font-weight: bold;
 }
