@@ -3,10 +3,13 @@
 * {
     /* change le box model */
     box-sizing: border-box;
-    }
+}
+
 a{
     text-decoration: none;
     color: gray;
+    font-family: monospace;
+    font-size: 1rem;
 }
 
 img {
@@ -18,14 +21,12 @@ img {
 
 .carrousel {
     position: relative;
-  }
+}
   
-  .carrousel_btn {
+.carrousel_btn {
     position: absolute;
     top: 50%;
-    top: calc(
-      min(500px, 100vw) / 16 * 9 / 2 + 1rem
-    ); /* centre verticalement ~50% vertical */
+    top: calc(min(500px, 100vw) / 16 * 9 / 2 + 1rem); /* centre verticalement ~50% vertical */
     transform: translateY(-50%); /* methode du point mort */
     width: 2rem;
     height: 2rem;
@@ -35,15 +36,15 @@ img {
     display: grid;
     place-content: center;
     color: #fff;
-  }
+}
   
   .carrousel_btn-avant {
     left: 0;
-  }
+}
   
   .carrousel_btn-apres {
     right: 0;
-  }
+}
 
 .carrousel_parent-ecrans {
     /* aligne horizontalement les enfants */
@@ -83,5 +84,10 @@ img {
 }
 
 .caroussel_lien.actif{
-    font-weight: bold;
+    text-decoration: underline;
+    line-height: 50%;
+    font-weight: 900;
+    font-size: 1.1rem;
+    transition: cubic-bezier();
+    transition-duration: 200ms;
 }
