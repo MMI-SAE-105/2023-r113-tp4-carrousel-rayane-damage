@@ -1,5 +1,5 @@
 /* en vrac :
-100% 100% 100% 0 auto border-box box-sizing 
+100% 100% 100% 0
 display height flex flex none margin 
 max-width width width
 */ 
@@ -24,8 +24,11 @@ img {
 }
 .carrousel_ecran {
     /* largeur du parent pour chaque enfant */
+
     /* permet de garder toute la largeur du parent */
+
 }
 .carrousel_ecran figure {
-      /* enlève les marges par défaut */
+    /* enlève les marges par défaut */
+    margin: 0;
 } 
