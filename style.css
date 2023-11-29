@@ -17,6 +17,7 @@ img {
     /* largeur du parent */
     width: 100%;
     overflow-x: scroll; /* permet de scroller horizontalement */
+    scroll-behavior: smooth;
     
 }
 .carrousel_ecran {
