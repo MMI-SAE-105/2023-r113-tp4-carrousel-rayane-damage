@@ -18,6 +18,7 @@ img {
     width: 100%;
     overflow-x: scroll; /* permet de scroller horizontalement */
     scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
     
 }
 .carrousel_ecran {
@@ -25,6 +26,7 @@ img {
     width: 100;
     /* permet de garder toute la largeur du parent */
     flex: none;
+    scroll-snap-align: start;
 }
 .carrousel_ecran figure {
     /* enlève les marges par défaut */
